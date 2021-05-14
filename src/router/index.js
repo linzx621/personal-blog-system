@@ -7,7 +7,7 @@ import siteController from "@/utils/siteController"
 Vue.use(VueRouter); //使用一个vue插件
 const router = new VueRouter({
     routes,
-    mode: "history" //这是路由匹配模式
+    mode: "hash" //这是路由匹配模式
 })
 router.afterEach((to, from) => {
     siteController.setRoute(to.meta.title);

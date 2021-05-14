@@ -14,7 +14,7 @@ export default {
   data() {
     return {
       urlLoaded: false,
-      resumeUrl: "static/myResume.html",
+      resumeUrl: "./static/myResume.html",
     };
   },
   created() {
